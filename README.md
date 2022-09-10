@@ -1,3 +1,17 @@
+This program is merely a portfolio piece, a modern take for monitoring gates that have surviellance and or a program to utilize surviellance tools. This may also be a template for you to utilize how you see fit and may not be suited for the general purpose or specifically for your company in particicular but with some tweaking this program may be utilized as either:
+
+-A program for gate guard employees to operate multiple gates most efficiently over a secure, websocketed, network protocol
+
+- A solid dashboard to utilize your very own surviellance system in your humble abode (utilizing raspberry pies, arduinos, or any switch for that matter within a closed looped system )
+
+- The possibilities to expand are of course endless and I may very well indeed pursue what I please, as will you
+
+Godspeed,
+
+Wesley
+____________________________________________________________________________________________________________
+
+
 This project was bootstrapped with
 [Create React App](https://github.com/facebook/create-react-app).
 
@@ -57,6 +71,9 @@ You can learn more in the
 [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+
+____________________________________________________________________________________________________________
+
 
 Note: any file without the comment below is considered stolen please read for more information;
 
@@ -191,4 +208,3 @@ Xkl:::cccclodxO0XW
 
 START OF OUR CODE, THIS IS ONLY SUPPOSED TO BE FOR ITS INTENDED USE, ANY FORM OF COPYING WILL BE PURSUED TO THE FULLEST EXTENT OF COPYRIGHT LAW. HAVE A NICE DAY :)
  */
-

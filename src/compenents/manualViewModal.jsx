@@ -155,7 +155,6 @@ import {
 
 import { GiAllSeeingEye } from 'react-icons/gi'
 import { CBB } from './communityBullitenBoard'
-import { ReactSearchAutocomplete } from 'react-search-autocomplete'
 export const ManualViewModal = () => {
 	const { isOpen, onOpen, onClose } = useDisclosure()
 	const [submitState, setSubmitState] = useState(false)
@@ -231,23 +230,11 @@ export const ManualViewModal = () => {
 				<ModalOverlay />
 				<ModalContent opacity={.5}>
 					<ModalHeader display={"flex"} justifyContent={"center"}>
-						<Image src={require("../images/Envera-Site-Logo-1.png")} p={3} height={"125px"} />
+						<Image src={require("../images/guard company logo.png")} p={3} height={"125px"} />
 					</ModalHeader>
 					<ModalCloseButton />
 					<ModalBody display={"flex"} justifyContent={"center"}>
 						<VStack>
-							<ReactSearchAutocomplete
-								items={items}
-								onSearch={handleOnSearch}
-								onHover={handleOnHover}
-								onSelect={handleOnSelect}
-								onFocus={handleOnFocus}
-								autoFocus
-								formatResult={formatResult}
-								placeholder="Please Search"
-								color="white"
-								background="white"
-							/>
 
 							<Text fontSize={32}>Manual View</Text>
 							

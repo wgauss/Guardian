@@ -165,7 +165,7 @@ export const SearchModal = ({searchTerm}) => {
 				<ModalOverlay />
 				<ModalContent bg="rgba(0, 150, 255, 0.8)">
 					<ModalHeader display={"flex"} justifyContent={"center"}>
-						<Image src={require("../images/Envera-Site-Logo-1.png")} p={3} height={"125px"} />
+						<Image src={require("../images/guard company logo.png")} p={3} height={"125px"} />
 					</ModalHeader>
 					<ModalCloseButton />
 					<ModalBody>

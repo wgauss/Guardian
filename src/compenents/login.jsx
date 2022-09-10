@@ -217,7 +217,7 @@ export const SignInModal = () => {
 					<ModalOverlay />
 					<ModalContent>
 						<ModalHeader display={"flex"} justifyContent={"center"}>
-							<Image src={require("../images/envera-systems-squarelogo.png")} boxSize={"50"} rounded={6} />
+							<Image src={require("../images/guard logo.png")} boxSize={"50"} rounded={6} />
 						</ModalHeader>
 						<ModalCloseButton />
 						<ModalBody>

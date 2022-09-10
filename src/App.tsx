@@ -338,7 +338,7 @@ export const App = () => {
 					<GridItem rowSpan={2} colSpan={2} bg={"#60788f"} rounded={3}>
 						
 					<Flex background={"skyblue"} rounded={3}>
-						<Image src={require( "./images/Envera-Site-Logo-1.png" )} p={3} />
+							<Image src={require( "./images/guard company logo.png" )} p={3} />
 					</Flex>
 						<Text m={1} p={1} rounded={6} border={"1px"} borderBottom="2px" borderColor="black" textAlign={"center"}>[ {timeState} ]</Text>
 					<Box p={3} textAlign={"center"} borderBottom={"2px"} borderColor={"black"}>
@@ -369,15 +369,15 @@ export const App = () => {
 							
 							< ViewHistoryModal />
 						<Tooltip label="Open Remote Email" placement="right" hasArrow>
-								<Link href="https://secure.enverasystems.com/owa" target={"_blank"}>
+								<Link href="" target={"_blank"}>
 								<Button width="100%" borderLeft={"2px"} color="darkslategrey" variant="solid" background="darkgrey">
 									Remote Email <Flex ml={"5px"}> <HiOutlineMail fontSize={"32px"} /> </Flex>
 								</Button>
 							</Link>
 						</Tooltip>
 
-						<Tooltip label="Open Monet Anywhere" placement="right" hasArrow>
-								<Link href="https://wfmlive.com/Monet5/login/login.aspx?company=Envera" target={"_blank"}>
+						<Tooltip label="Open Schedule" placement="right" hasArrow>
+								<Link href="" target={"_blank"}>
 								<Button width="100%" borderLeft={"2px"} color="darkslategrey" variant="solid" background="darkgrey">
 									Check Schedule <Flex ml={"5px"}> < AiOutlineSchedule fontSize={"32px"}/> </Flex>
 								</Button>
@@ -385,8 +385,8 @@ export const App = () => {
 							
 						</Tooltip>
 
-						<Tooltip label="Open Time Clock PLUS" placement="right" hasArrow>
-								<Link href="https://194431.tcplusondemand.com/app/webclock/#/EmployeeLogOn/194431" target={"_blank"}>
+						<Tooltip label="Open Time Clock" placement="right" hasArrow>
+								<Link href="" target={"_blank"}>
 								<Button width="100%" borderLeft={"2px"} color="darkslategrey" variant="solid" background="darkgrey">
 									Clock In/Out <Flex ml={"5px"}> <FaUserClock fontSize={"32px"}/> </Flex>
 								</Button>
@@ -402,15 +402,6 @@ export const App = () => {
 							</Link>
 						</Tooltip>
 
-
-						<Tooltip label="Open My Envera" placement="right" hasArrow>
-								<Link href="https://www.myenvera.com/" target={"_blank"}>
-								<Button width="100%" borderLeft={"2px"} color="darkslategrey" variant="solid" background="darkgrey">
-									My Envera<Flex ml={"5px"}> <ImAddressBook fontSize={"32px"} /> </Flex>
-								</Button>
-							</Link>
-
-						</Tooltip>
 						<Flex justifyContent={"center"}>
 								< CallResidentModal />
 						</Flex>

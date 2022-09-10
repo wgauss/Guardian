@@ -265,7 +265,7 @@ export const CallResidentModal = () => {
 				<ModalContent opacity={.5} height={850}>
 					<ModalHeader display={"block"}>
 						<Flex justifyContent={"center"}>
-							<Image src={require("../images/Envera-Site-Logo-1.png")} p={3} height={"125px"} />
+							<Image src={require("../images/guard company logo.png")} p={3} height={"125px"} />
 						</Flex>
 						<Text border={"1px"} p={1} rounded={3} textAlign={"center"}>Community: <u>Example Community</u> | Gate: <u>Example Gate</u> </Text>
 					</ModalHeader>
